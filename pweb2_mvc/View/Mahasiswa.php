@@ -20,19 +20,6 @@
     </style>
 </head>
 <body>
-<h2>Edit User</h2>
-    <form action="/user/update/<?php echo $user['id']; ?>" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="<?php echo $user['name']; ?>" required>
-        <br>
-        <label for="nim">NIM:</label>
-        <input type="nim" id="nim" name="nim" value="<?php echo $user['nim']; ?>" required>
-        <label for="prodi">Prodi:</label>
-        <input type="prodi" id="prodi" name="prodi" value="<?php echo $user['prodi']; ?>" required>
-        <br>
-        <button type="submit">Update</button>
-    </form>
-    <a href="/user/index">Back to List</a>
     <table>
         <tr>
             <th>Nama</th>
